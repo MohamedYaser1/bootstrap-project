@@ -1,0 +1,187 @@
+/* font-family: 'Lato', sans-serif; */
+
+:root {
+  --maincolor: #f4511e;
+}
+body {
+  position: relative;
+}
+.navbar {
+  background-color: var(--maincolor);
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+.nav-link {
+  color: white;
+  padding: 15px 20px !important;
+}
+.nav-link:hover,
+.nav-link.active,
+.nav-link.active:hover {
+  background-color: white;
+  color: var(--maincolor) !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0px 15px;
+}
+.navbar-toggler-icon {
+  background-image: none;
+  height: auto !important;
+  border: none !important;
+  color: #888888;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  color: white !important;
+  background-color: #ddd;
+}
+
+/* company */
+#company {
+  background-color: var(--maincolor) !important;
+}
+#company p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  line-height: 38px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 63px;
+  line-height: 69px;
+}
+
+.subscribe {
+  background-color: #d9534f !important;
+  color: white;
+}
+.subscribe:hover {
+  background-color: #c9302c !important;
+  border-color: #ac2925 !important;
+}
+/* about */
+
+.font {
+  font-family: "Lato", sans-serif;
+}
+.about .intouch:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  color: #333;
+}
+.fa-solid,
+.fa-brands {
+  color: var(--maincolor);
+}
+/* OUR VALUES */
+.bgcolor {
+  background-color: #f6f6f6 !important;
+}
+
+/* SERVICES */
+.icons {
+  font-size: 60px !important;
+  padding: 10px;
+}
+/* Card */
+.card {
+  border: 0px !important;
+  width: 450px !important;
+  margin: 20px;
+}
+.card-img-top {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+/* WHAT OUR CUSTOMERS SAY */
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid var(--maincolor) !important;
+}
+.carousel-indicators .active {
+  background-color: var(--maincolor) !important;
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 63px;
+  line-height: 69px;
+}
+
+/* PRICING */
+.card-header {
+  background-color: var(--maincolor);
+  color: white;
+  padding: 35px !important;
+  font-family: "Lato", sans-serif;
+}
+.card-header:first-child {
+  border-radius: 0px;
+}
+.card-header .basic {
+  font-size: 36px !important;
+}
+.rounded-3 {
+  border: 1px solid var(--maincolor) !important;
+}
+.card-body ul li {
+  color: #818181;
+  padding: 7px;
+}
+.card-footer {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+.card-footer .price {
+  font-size: 32px !important;
+  color: #818181;
+}
+.card-footer .button {
+  background-color: var(--maincolor) !important;
+  color: white !important;
+  margin-bottom: 15px;
+}
+.card-footer .button:hover {
+  background-color: white !important;
+  color: var(--maincolor) !important;
+  border: 1px solid var(--maincolor) !important;
+}
+/* CONTACTme */
+.CONTACTme p .fa-solid {
+  color: #818181 !important;
+}
+.send {
+  border-radius: 3px;
+  padding: 6px 10px;
+}
+.send:hover {
+  color: #333 !important;
+  background-color: #e6e6e6 !important;
+  border-color: #adadad !important;
+}
+/* ----------------------------------- */
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 0px 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100% !important;
+    margin: 30px !important;
+  }
+}
